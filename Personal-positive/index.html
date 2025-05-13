@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slideshow-container">
+        <div class="slideshow">
+            <button class="nav-button left" onclick="prevVideo()">&#10094;</button>
+            <video id="slideshow-video" src="videos/video1.mp4" autoplay loop muted></video>
+            <button class="nav-button right" onclick="nextVideo()">&#10095;</button>
+        </div>
+        <p id="video-counter">1 of 5</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
